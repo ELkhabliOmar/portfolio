@@ -12,10 +12,10 @@
 }
 
 :root {
-    --bg-color: #000;
+    --bg-color: #ffffff;
     --second-bg-color: #333;
-    --text-color: #ededed;
-    --main-color: #754ef9;
+    --text-color: #000000;
+    --main-color: #4c5ab6;
 }
 
 html {
@@ -93,7 +93,7 @@ section {
     display: flex;
     align-items: center;
     padding: 0 9%;
-    background: url("images/font_copie.jpg") no-repeat;
+    background: url("images/font_copie2.jpg") no-repeat;
     background-size: cover;
     background-position: center;
 }
