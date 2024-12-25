@@ -15,6 +15,7 @@
     --bg-color: #ffffff;
     --second-bg-color: #333;
     --text-color: #000000;
+    --cadre-color: #777575;
     --main-color: #4c5ab6;
 }
 
@@ -420,7 +421,7 @@ span {
     left: 0;
     width: 0;
     height: 100%;
-    background: var(--second-bg-color);
+    background: var(--cadre-color);
     z-index: -1;
     transition: .5s;
 }
@@ -497,7 +498,7 @@ span {
     left: 0;
     width: 0;
     height: 100%;
-    background: var(--second-bg-color);
+    background: var(--cadre-color);
     z-index: -1;
     transition: .5s;
 }
@@ -756,7 +757,7 @@ span {
    justify-content: space-between;
    align-items: center;
    flex-wrap: wrap;
-   padding: 2rem 9%;
+   padding: 1rem 9%;
    background: var(--second-bg-color); 
 }
 
@@ -767,6 +768,7 @@ span {
 
 .footer-text p {
     font-size: 1.6rem;
+    color: #a39e9e;
 }
 
 .footer-iconTop a {
