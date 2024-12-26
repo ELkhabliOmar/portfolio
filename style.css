@@ -15,10 +15,78 @@
     --bg-color: #ffffff;
     --second-bg-color: #333;
     --text-color: #000000;
-    --cadre-color: #777575;
+    --cadre-color: #8e8d8d;
     --main-color: #4c5ab6;
     --main-color2:rgb(45, 94, 173);
 }
+
+/* Mode Nuit */
+body.dark-mode {
+
+    --bg-color: #000000; /* Fond noir */
+    --second-bg-color:#333; /* Fond secondaire plus foncé */
+    --text-color: #ededed; /* Texte blanc */
+    --cadre-color: #333; /* Cadres plus clairs */
+    --main-color: #754ef9; /* Bleu vif */
+    --main-color2: #754ef9; /* Bleu acier */
+}
+
+/* Exemple de styles utilisant les variables */
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+.card {
+    background-color: var(--second-bg-color);
+    border-color: var(--cadre-color);
+}
+
+.button {
+    background-color: var(--main-color);
+    color: var(--text-color);
+}
+body.dark-mode .home {
+
+        display: flex;
+        align-items: center;
+        padding: 0 9%;
+        background: url("images/font_copie.jpg") no-repeat;
+        background-size: cover;
+        background-position: center;
+    
+}
+/* Bouton global */
+.btnn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Style du mode jour */
+.btnn {
+    background-color: #e0e0e0;
+    color: #000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
+body.dark-mode .btnn {
+    background-color: #000;
+    color: #fff;
+}
+/* Mode Nuit */
+
 
 html {
     font-size: 62.5%;
@@ -29,6 +97,8 @@ body {
     background: var(--bg-color);
     color: var(--text-color);
 }
+
+
 
 .header {
     position: fixed;
